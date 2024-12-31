@@ -52,7 +52,7 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="space-x-4 animate-fade-in">
-                <a href="https://github.com/Tosvng/ClipThat/releases/download/2.0.0/ClipThat.msi">
+                <a href="https://github.com/Tosvng/ClipThat/releases/download/2.3.2/ClipThat.msi">
                   <Button className="bg-teal-600 text-gray-900 hover:bg-teal-500 shadow-[0_0_0.5rem_0_rgba(45,212,191,0.3)] transition-all duration-300 ease-in-out hover:shadow-[0_0_0.75rem_0_rgba(45,212,191,0.5)]">
                     Download Now
                     <Download className="ml-2 h-4 w-4" />
@@ -176,7 +176,7 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2 animate-fade-in">
-                <a href="https://github.com/Tosvng/ClipThat/releases/download/2.0.0/ClipThat.msi">
+                <a href="https://github.com/Tosvng/ClipThat/releases/download/2.3.2/ClipThat.msi">
                   <Button className="w-full bg-teal-600 text-gray-900 hover:bg-teal-500 shadow-[0_0_0.5rem_0_rgba(45,212,191,0.3)] transition-all duration-300 ease-in-out hover:shadow-[0_0_0.75rem_0_rgba(45,212,191,0.5)]">
                     Secure the Bag
                     <Download className="ml-2 h-4 w-4" />
