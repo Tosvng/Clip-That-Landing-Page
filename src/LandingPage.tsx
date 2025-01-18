@@ -47,12 +47,12 @@ export default function LandingPage() {
                 </h1>
                 <p className="mx-auto max-w-3xl text-gray-300 md:text-xl animate-fade-in-up">
                   Clip That automatically creates YouTube Shorts from your
-                  gaming highlights. Just play, say the keyword, and let us do
-                  the rest.
+                  gaming highlights. Just play, say your custom keyword, and let
+                  us do the rest.
                 </p>
               </div>
               <div className="space-x-4 animate-fade-in">
-                <a href="https://github.com/Tosvng/ClipThat/releases/download/2.3.2/ClipThat.msi">
+                <a href="https://github.com/Tosvng/ClipThat/releases/download/3.2.0/ClipThat.msi">
                   <Button className="bg-teal-600 text-gray-900 hover:bg-teal-500 shadow-[0_0_0.5rem_0_rgba(45,212,191,0.3)] transition-all duration-300 ease-in-out hover:shadow-[0_0_0.75rem_0_rgba(45,212,191,0.5)]">
                     Download Now
                     <Download className="ml-2 h-4 w-4" />
@@ -86,8 +86,9 @@ export default function LandingPage() {
                   Automatic Clipping
                 </h3>
                 <p className="text-sm text-center text-gray-400">
-                  Say your keyword and Clip That will create a short of the
-                  preceding gameplay. It's like magic, but cooler.
+                  Simply say your keyword and Clip That will instantly create a
+                  short from your recent gameplay. It's seamless automation at
+                  its finest.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 p-4 rounded-lg bg-gray-800 shadow-[0_0_0.3rem_0_rgba(45,212,191,0.2)] transition-all duration-300 ease-in-out hover:shadow-[0_0_0.5rem_0_rgba(45,212,191,0.3)] animate-fade-in-up animation-delay-200">
@@ -96,8 +97,8 @@ export default function LandingPage() {
                   YouTube Shorts Ready
                 </h3>
                 <p className="text-sm text-center text-gray-400">
-                  Clips are optimized for YouTube Shorts format, ready to upload
-                  and share. We've got your back, fam.
+                  Each clip is perfectly optimized for YouTube Shorts format,
+                  ready for instant sharing with your audience.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 p-4 rounded-lg bg-gray-800 shadow-[0_0_0.3rem_0_rgba(45,212,191,0.2)] transition-all duration-300 ease-in-out hover:shadow-[0_0_0.5rem_0_rgba(45,212,191,0.3)] animate-fade-in-up animation-delay-400">
@@ -106,8 +107,7 @@ export default function LandingPage() {
                   Easy Editing
                 </h3>
                 <p className="text-sm text-center text-gray-400">
-                  Fine-tune your clips with our built-in editor before sharing.
-                  Make it crispy clean.
+                  No need to spend hours editing - we've got you covered.
                 </p>
               </div>
             </div>
@@ -130,7 +130,7 @@ export default function LandingPage() {
                   Vibe and Game
                 </h3>
                 <p className="text-sm text-center text-gray-400">
-                  Just play your game and be your cracked self. Easy peasy.
+                  Focus on your gameplay while we handle the content creation.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 animate-fade-in-up animation-delay-200">
@@ -142,7 +142,8 @@ export default function LandingPage() {
                 </h3>
                 <p className="text-sm text-center text-gray-400">
                   When you do something cold, yell your chosen word. Like "Clip"
-                  or whatever tickles your pickle.
+                  or whatever tickles your pickle - we'll capture the moment
+                  instantly.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 animate-fade-in-up animation-delay-400">
@@ -153,8 +154,8 @@ export default function LandingPage() {
                   Flex on Main
                 </h3>
                 <p className="text-sm text-center text-gray-400">
-                  Clip That creates multiple Shorts of the preceding gameplay,
-                  ready to share.
+                  Your clips are automatically transformed into multiple Shorts
+                  formats, ready to share with your community.
                 </p>
               </div>
             </div>
@@ -171,12 +172,15 @@ export default function LandingPage() {
                   Ready to Clip That?
                 </h2>
                 <p className="mx-auto max-w-[700px] text-gray-400 md:text-xl animate-fade-in-up">
-                  Download Clip That now and start creating YouTube Shorts
-                  effortlessly.
+                  Start creating engaging content effortlessly with Clip That.
+                </p>
+                <p className="text-lg text-gray-300 animate-fade-in-up">
+                  Get unlimited clips with our premium subscription - only
+                  $10/month
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2 animate-fade-in">
-                <a href="https://github.com/Tosvng/ClipThat/releases/download/2.3.2/ClipThat.msi">
+                <a href="https://github.com/Tosvng/ClipThat/releases/download/3.2.0/ClipThat.msi">
                   <Button className="w-full bg-teal-600 text-gray-900 hover:bg-teal-500 shadow-[0_0_0.5rem_0_rgba(45,212,191,0.3)] transition-all duration-300 ease-in-out hover:shadow-[0_0_0.75rem_0_rgba(45,212,191,0.5)]">
                     Secure the Bag
                     <Download className="ml-2 h-4 w-4" />
