@@ -172,9 +172,6 @@ export default function LandingPage() {
                   Ready to Clip That?
                 </h2>
                 <p className="mx-auto max-w-[700px] text-gray-400 md:text-xl animate-fade-in-up">
-                  Start creating engaging content effortlessly with Clip That.
-                </p>
-                <p className="text-lg text-gray-300 animate-fade-in-up">
                   Get unlimited clips with our premium subscription - only
                   $10/month
                 </p>
