@@ -5,7 +5,7 @@ import LandingPage from "./LandingPage";
 function App() {
   useEffect(() => {
     try {
-      axios.get("https://myshopx.net/api/email/newvisit/cliipthat");
+      axios.get("https://myshopx.net/api/email/newvisit/clipthat");
     } catch (error) {}
   }, []);
 
