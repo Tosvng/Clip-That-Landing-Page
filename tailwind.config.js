@@ -4,6 +4,12 @@ export default {
   content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        15: "repeat(15, minmax(0, 1fr))",
+      },
+      gridTemplateRows: {
+        15: "repeat(15, minmax(0, 1fr))",
+      },
       animation: {
         "fade-in-down": "fadeInDown 0.5s ease-out",
         "fade-in-up": "fadeInUp 0.5s ease-out",

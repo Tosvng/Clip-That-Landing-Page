@@ -5,7 +5,9 @@ import LandingPage from "./LandingPage";
 function App() {
   useEffect(() => {
     try {
-      axios.get("https://myshopx.net/api/newvisit/clipthat");
+      if (import.meta.env.MODE === "production") {
+        axios.get("https://myshopx.net/api/newvisit/clipthat");
+      }
     } catch (error) {}
   }, []);
 
